@@ -1,0 +1,37 @@
+
+.aboutpage{
+    width: 100%;
+    padding: 6rem 0;
+    background: rgb(34, 34, 124);
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+   
+}
+.aboutpage:hover{
+    transition: ease-out 120ms;
+    background: rgb(108, 108, 214);
+}
+
+
+.heading_about{
+    text-align: center;
+    
+
+}
+
+.para_about{
+    text-align: center;
+}
+
+.heading_vision{
+    text-align: center;
+}
+.body_vision{
+    text-align: center;
+}
+
+.about_staff{
+    text-align: center;
+}

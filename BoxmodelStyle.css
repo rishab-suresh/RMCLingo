@@ -1,0 +1,68 @@
+.pricingS {
+    width: 100%;
+    padding: 6rem 1rem;
+    background-color: rgba(2, 68, 94, 0.8);
+}
+
+.card-containerS {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-gap: 40px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card-containerS.cardS {
+    border: 1px solid #eee;
+    color: #eee;
+}
+
+.cardS {
+    text-align: center;
+    padding: 1rem;
+}
+
+.cardS:hover {
+    background-color: #141414;
+}
+
+.cardS h3 {
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+.cardS.bar {
+    border-bottom: 1px solid #eee;
+    width: 10%;
+    margin: 1.5rem auto;
+    display: block;
+}
+
+.cardS .btc {
+    font-size: 4rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.pricingS p {
+    color: #eee;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
+.cardS .btn {
+    display: block;
+    width: 80%;
+    margin: 2rem auto;
+}
+
+@media screen and (max-width: 980px) {
+    .card-containerS {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+

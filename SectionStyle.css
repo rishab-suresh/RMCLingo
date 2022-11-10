@@ -1,0 +1,33 @@
+
+.size {
+    display:flex;
+    justify-content:space-around;
+    padding: 10px 40px;
+    background-color: rgba(2, 68, 94, 0.8)!important;
+    align-items:left;
+    color: rgb(10, 10, 10);
+    line-height: 40px;
+    height: 450px;
+    align-items: center;
+    padding: 1rem;
+    z-index: 10;
+    background: url('../assets/sweet.png')  no-repeat center ;
+    
+    
+    
+}
+.blue{
+    color:blue;
+}
+.red{
+    color:red;
+}
+.meroon{
+color: rgba(104, 6, 6, 0.952);
+}
+.green{
+    color:green;
+}
+.light{
+    color:rgb(63, 136, 247)
+}
